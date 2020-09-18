@@ -17,12 +17,22 @@ ul,ol{
     margin: 0;
 }
 
-.font-14{
-    font-size: 14px;
+.font-18{
+    font-size: 18px;
 }
+
+.font-28{
+    font-size: 28px;
+}
+
 .color-red {
-    color: #CD0511;
+    color: #f01b1b;
 }
+
+.color-blue{
+    color: rgb(12, 81, 163);
+}
+
 .line{
     background: #F1F1F1;
     height: 2px;
@@ -31,6 +41,7 @@ ul,ol{
 .mr-20{
     margin-right: 20px;
 }
+
 /* ==========================================================================
   Home page
    ========================================================================== */
@@ -128,7 +139,7 @@ header {
 
 /* Start Benifit*/
 
-.benefits_container{
+/*.benefits_container{
     .benifts-home{
         background: #FFFFFF;
         box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.09);
@@ -188,63 +199,19 @@ header {
             background-position: center;
         }
     }
-}
+}*/
 
 /* End Benifit*/
 
 /* regulations container start*/
 
 .regulations-container{
-    margin: 50px 0 40px 0;
-    .sv-icon {
-        background-image: url(https://static.hotforex.com/assets/hfnew/images/redesign/svg/sv.svg);
-        width: 53px;
-        height: 53px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    .sv-icon1 {
-        background-image: url(https://static.hotforex.com/assets/hfnew/images/redesign/svg/sv.svg);
-        width: 53px;
-        height: 53px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    .sv-icon2 {
-        background-image: url(https://static.hotforex.com/assets/hfnew/images/redesign/svg/bank.svg);
-        width: 53px;
-        height: 53px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    .sv-icon3 {
-        background-image: url(https://static.hotforex.com/assets/hfnew/images/redesign/svg/safety.svg);
-        width: 53px;
-        height: 53px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    .sv-icon4 {
-        background-image: url(https://static.hotforex.com/assets/hfnew/images/redesign/svg/negative_protection.svg);
-        width: 53px;
-        height: 53px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    .regulations_title_top{
-        padding: 8px 0 22px 5px;
-        font-size: 14px;
-        font-weight: 700;
-    }
-    ul{
-        padding-left: 12px;
-        li{
-            font-size: 14px;
+    .btn-choice{
+        max-width: 250px;
+        background: #0c51a3;
+        min-height: 40px;
+        &:hover{
+            background: red;
         }
     }
 }
@@ -776,6 +743,7 @@ Main components
     }
 }
 /* footer end*/
+
 /* ==========================================================================
   Responsive
    ========================================================================== */
@@ -797,9 +765,7 @@ Main components
     }
 }
 @media screen and (max-width: 1024px){
-    .regulations-container{
-        display: none;
-    }
+    
 }
 @media screen and (max-width: 768px) {
     .library-detail-container{

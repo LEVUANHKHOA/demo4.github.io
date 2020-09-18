@@ -15,11 +15,17 @@ ul, ol {
   padding: 0;
   margin: 0; }
 
-.font-14 {
-  font-size: 14px; }
+.font-18 {
+  font-size: 18px; }
+
+.font-28 {
+  font-size: 28px; }
 
 .color-red {
-  color: #CD0511; }
+  color: #f01b1b; }
+
+.color-blue {
+  color: #0c51a3; }
 
 .line {
   background: #F1F1F1;
@@ -100,107 +106,75 @@ header .mega-menu {
 
 /* End swiper*/
 /* Start Benifit*/
-.benefits_container .benifts-home {
-  background: #FFFFFF;
-  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.09);
-  border-radius: 3px;
-  padding: 45px 60px 15px 60px;
-  margin-top: -55px;
-  z-index: 2;
-  position: relative;
-  min-height: 150px; }
-  .benefits_container .benifts-home span {
-    font-size: 14px;
-    text-transform: uppercase;
-    line-height: 19px !important;
-    letter-spacing: 0.03em !important;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #666; }
-  .benefits_container .benifts-home .leverage-icon1 {
-    background-image: url(https://static.hotforex.com/assets/hfnew/images/redesign/svg/leverage.svg);
-    width: 96px;
-    height: 60px;
-    margin-top: 0px;
-    margin-right: 6px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .benefits_container .benifts-home .leverage-icon2 {
-    background-image: url(https://static.hotforex.com/assets/hfnew/images/redesign/svg/6.svg);
-    width: 96px;
-    height: 60px;
-    margin-top: 0px;
-    margin-right: 6px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .benefits_container .benifts-home .leverage-icon3 {
-    background-image: url(https://static.hotforex.com/assets/hfnew/images/redesign/svg/00.svg);
-    width: 96px;
-    height: 60px;
-    margin-top: 0px;
-    margin-right: 6px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .benefits_container .benifts-home .leverage-icon4 {
-    background-image: url(https://static.hotforex.com/assets/hfnew/images/redesign/svg/zero_fees.svg?v=1);
-    width: 96px;
-    height: 60px;
-    margin-top: 0px;
-    margin-right: 6px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; }
-
+/*.benefits_container{
+    .benifts-home{
+        background: #FFFFFF;
+        box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.09);
+        border-radius: 3px;
+        padding: 45px 60px 15px 60px;
+        margin-top: -55px;
+        z-index: 2;
+        position: relative;
+        min-height: 150px;
+        span{
+            font-size: 14px;
+            text-transform: uppercase;
+            line-height: 19px !important;
+            letter-spacing: 0.03em !important;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #666;
+        }
+        .leverage-icon1{
+            background-image: url(https://static.hotforex.com/assets/hfnew/images/redesign/svg/leverage.svg);
+            width: 96px;
+            height: 60px;
+            margin-top: 0px;
+            margin-right: 6px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .leverage-icon2{
+            background-image: url(https://static.hotforex.com/assets/hfnew/images/redesign/svg/6.svg);
+            width: 96px;
+            height: 60px;
+            margin-top: 0px;
+            margin-right: 6px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .leverage-icon3{
+            background-image: url(https://static.hotforex.com/assets/hfnew/images/redesign/svg/00.svg);
+            width: 96px;
+            height: 60px;
+            margin-top: 0px;
+            margin-right: 6px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .leverage-icon4{
+            background-image: url(https://static.hotforex.com/assets/hfnew/images/redesign/svg/zero_fees.svg?v=1);
+            width: 96px;
+            height: 60px;
+            margin-top: 0px;
+            margin-right: 6px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}*/
 /* End Benifit*/
 /* regulations container start*/
-.regulations-container {
-  margin: 50px 0 40px 0; }
-  .regulations-container .sv-icon {
-    background-image: url(https://static.hotforex.com/assets/hfnew/images/redesign/svg/sv.svg);
-    width: 53px;
-    height: 53px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .regulations-container .sv-icon1 {
-    background-image: url(https://static.hotforex.com/assets/hfnew/images/redesign/svg/sv.svg);
-    width: 53px;
-    height: 53px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .regulations-container .sv-icon2 {
-    background-image: url(https://static.hotforex.com/assets/hfnew/images/redesign/svg/bank.svg);
-    width: 53px;
-    height: 53px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .regulations-container .sv-icon3 {
-    background-image: url(https://static.hotforex.com/assets/hfnew/images/redesign/svg/safety.svg);
-    width: 53px;
-    height: 53px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .regulations-container .sv-icon4 {
-    background-image: url(https://static.hotforex.com/assets/hfnew/images/redesign/svg/negative_protection.svg);
-    width: 53px;
-    height: 53px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .regulations-container .regulations_title_top {
-    padding: 8px 0 22px 5px;
-    font-size: 14px;
-    font-weight: 700; }
-  .regulations-container ul {
-    padding-left: 12px; }
-    .regulations-container ul li {
-      font-size: 14px; }
+.regulations-container .btn-choice {
+  max-width: 250px;
+  background: #0c51a3;
+  min-height: 40px; }
+  .regulations-container .btn-choice:hover {
+    background: red; }
 
 /* regulations container end*/
 /* payment container start*/
@@ -696,9 +670,6 @@ Main components
 
   .swiper-container-2 .swiper-pagination-bullets {
     padding-right: 50px; } }
-@media screen and (max-width: 1024px) {
-  .regulations-container {
-    display: none; } }
 @media screen and (max-width: 768px) {
   .library-detail-container {
     padding-top: 60px; }
