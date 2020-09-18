@@ -77,19 +77,22 @@ header .mega-menu {
         padding: 10px 25px;
         margin-top: 20px;
         min-width: 190px;
-        border: 2px solid #CD0511;
-        display: inline-block; }
+        background: #079246;
+        display: inline-block;
+        border-radius: 30px;
+        text-align: center; }
         .swiper-container-2 .slider-info ul li a span {
           padding-left: 30px; }
         .swiper-container-2 .slider-info ul li a:hover {
           background: #CD0511; }
 .swiper-container-2 .swiper-pagination-bullets {
-  right: 10px;
-  top: 50%;
-  transform: translate3d(0px, -50%, 0);
-  display: grid;
-  padding-right: 100px;
-  justify-content: flex-end; }
+  position: relative;
+  z-index: 15;
+  width: 10px;
+  padding-left: 0;
+  left: auto;
+  margin: -22% 5% 0 0;
+  float: right; }
 .swiper-container-2 .swiper-button-next {
   right: 25px; }
 .swiper-container-2 .swiper-button-prev {
