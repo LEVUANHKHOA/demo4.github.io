@@ -104,8 +104,9 @@ header .mega-menu {
         .swiper-container-2 .slider-info ul li a:hover {
           background: #CD0511; }
 .swiper-container-2 .slider-info-1 {
-  background: url("../img/slider_mobile.jpg") no-repeat center center;
-  background-size: cover; }
+  background: url("../img/slider_mobile.jpg") no-repeat center center; }
+.swiper-container-2 .slider-info-2 {
+  background: url("../img/connect755.jpg") no-repeat center center; }
 .swiper-container-2 .swiper-pagination-bullets {
   position: relative;
   z-index: 15;
@@ -184,11 +185,21 @@ header .mega-menu {
 }*/
 /* End Benifit*/
 /* regulations container start*/
-.regulations-container .btn-choice {
+/*.regulations-container{
+    .btn-choice{
+        max-width: 250px;
+        background: #0c51a3;
+        min-height: 40px;
+        &:hover{
+            background: red;
+        }
+    }
+}*/
+.btn-choice {
   max-width: 250px;
   background: #0c51a3;
   min-height: 40px; }
-  .regulations-container .btn-choice:hover {
+  .btn-choice:hover {
     background: red; }
 
 /* regulations container end*/
@@ -211,7 +222,14 @@ header .mega-menu {
     .trading-box .trade-item ul li.marker-green::before {
       background-color: #079246; }
 
-/* forex trading and benefit start*/
+/* forex trading and benefit end*/
+/* new container start*/
+.new-container .new-box2 {
+  min-height: 580px;
+  background: url("../img/support_trans.jpg") no-repeat center center;
+  background-size: contain; }
+
+/* new container end*/
 /* payment container start*/
 .payment-bar-container {
   min-height: 160px;
@@ -702,6 +720,9 @@ footer {
   header .cd-logo,
   header .cd-nav-trigger {
     display: inline-block; }
+
+  .slider-info {
+    height: 530px !important; }
 
   .swiper-button-next, .swiper-button-prev {
     display: none; }
