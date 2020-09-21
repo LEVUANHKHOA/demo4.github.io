@@ -3,7 +3,7 @@ html {
 
 body {
   background: #fff;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -27,6 +27,9 @@ ul, ol {
 .font-30 {
   font-size: 30px; }
 
+.font-48 {
+  font-size: 48px; }
+
 .color-red {
   color: #f01b1b; }
 
@@ -36,29 +39,49 @@ ul, ol {
 .color-green {
   color: #079246; }
 
-.line {
-  background: #F1F1F1;
-  height: 2px;
-  width: 100%; }
+.line-height-35 {
+  line-height: 35px; }
 
 .mr-20 {
   margin-right: 20px; }
 
+.mb-30 {
+  margin-bottom: 30px; }
+
 .mt-15-percent {
   margin-top: 15%; }
+
+.py-80 {
+  padding: 80px 0; }
+
+ul.list-box li::before {
+  display: inline-block;
+  content: '';
+  -webkit-border-radius: 0.375rem;
+  border-radius: 0.375rem;
+  height: 5px;
+  width: 5px;
+  margin: 0 0.5rem 3px 0;
+  background-color: #bdbdbd; }
+ul.list-box li.marker-green::before {
+  background-color: #079246; }
 
 /* ==========================================================================
   Home page
    ========================================================================== */
 /* Start header */
-header .mega-menu {
-  height: 130px;
-  box-shadow: none;
-  background: #111; }
-  header .mega-menu .container {
-    max-width: 1200px; }
+header {
+  margin-bottom: 125px; }
+  header .mega-menu {
+    height: 130px;
+    box-shadow: none;
+    background: #111; }
+    header .mega-menu .container {
+      max-width: 1200px; }
 
 /* end header */
+/* start content */
+/* end content */
 /* Start swiper*/
 .swiper-container-2 img {
   max-width: 100%; }
@@ -210,17 +233,6 @@ header .mega-menu {
     background: #222;
     padding: 10px;
     min-height: 300px; }
-    .trading-box .trade-item ul li::before {
-      display: inline-block;
-      content: '';
-      -webkit-border-radius: 0.375rem;
-      border-radius: 0.375rem;
-      height: 5px;
-      width: 5px;
-      margin: 0 0.5rem 3px 0;
-      background-color: #bdbdbd; }
-    .trading-box .trade-item ul li.marker-green::before {
-      background-color: #079246; }
 
 /* forex trading and benefit end*/
 /* new container start*/
@@ -705,12 +717,19 @@ Main components
 /* mega menu end*/
 /* footer start*/
 footer {
-  background: #1E1E21; }
+  background: #222222; }
   footer .footer-contact ul li {
     display: flex;
     align-items: center; }
 
 /* footer end*/
+/* about page start*/
+#about-page .first-text h2 {
+  line-height: 48px; }
+#about-page .second-text {
+  background: #f4f6f4; }
+
+/* about page end*/
 /* ==========================================================================
   Responsive
    ========================================================================== */
