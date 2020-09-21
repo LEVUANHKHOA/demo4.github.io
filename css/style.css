@@ -44,6 +44,9 @@ ul, ol {
 .mr-20 {
   margin-right: 20px; }
 
+.mt-15-percent {
+  margin-top: 15%; }
+
 /* ==========================================================================
   Home page
    ========================================================================== */
@@ -69,7 +72,7 @@ header .mega-menu {
   background: red;
   border: inherit; }
 .swiper-container-2 .slider-info {
-  background: url("../img/santos-esports.jpg") no-repeat center center;
+  background: url("../img/car2.png") no-repeat center center;
   background-size: cover;
   height: 660px;
   display: flex;
@@ -101,7 +104,8 @@ header .mega-menu {
         .swiper-container-2 .slider-info ul li a:hover {
           background: #CD0511; }
 .swiper-container-2 .slider-info-1 {
-  background: url("../img/car2.png") no-repeat center center; }
+  background: url("../img/slider_mobile.jpg") no-repeat center center;
+  background-size: cover; }
 .swiper-container-2 .swiper-pagination-bullets {
   position: relative;
   z-index: 15;
@@ -206,10 +210,14 @@ header .mega-menu {
       background-color: #bdbdbd; }
     .trading-box .trade-item ul li.marker-green::before {
       background-color: #079246; }
-  .trading-box .trade-2 ul li::marker {
-    background: red; }
 
 /* forex trading and benefit start*/
+/* payment container start*/
+.payment-bar-container {
+  min-height: 160px;
+  line-height: 160px; }
+
+/* payment container end*/
 /* Services Item */
 .navbar-expand-md .navbar-nav .nav-item {
   font-weight: 500;
@@ -278,7 +286,8 @@ Main components
 
 .cd-logo img {
   display: block;
-  width: 70%; }
+  width: 70%;
+  margin-top: 25%; }
 
 .cd-nav-trigger {
   top: 18px;
@@ -677,9 +686,11 @@ Main components
 
 /* mega menu end*/
 /* footer start*/
-.footer-contact ul li {
-  display: flex;
-  align-items: center; }
+footer {
+  background: #1E1E21; }
+  footer .footer-contact ul li {
+    display: flex;
+    align-items: center; }
 
 /* footer end*/
 /* ==========================================================================

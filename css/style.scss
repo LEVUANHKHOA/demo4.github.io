@@ -53,6 +53,9 @@ ul,ol{
     margin-right: 20px;
 }
 
+.mt-15-percent{
+    margin-top: 15%;
+}
 /* ==========================================================================
   Home page
    ========================================================================== */
@@ -90,7 +93,7 @@ header {
         border: inherit;
     }
     .slider-info{
-    background: url('../img/santos-esports.jpg') no-repeat center center;
+    background: url('../img/car2.png') no-repeat center center; 
     background-size: cover;
     height: 660px;
     display: flex;
@@ -130,7 +133,8 @@ header {
     }
 }
 .slider-info-1{
-    background: url('../img/car2.png') no-repeat center center; 
+    background: url('../img/slider_mobile.jpg') no-repeat center center; 
+    background-size: cover;
 }
 .swiper-pagination-bullets {
     position: relative;
@@ -257,16 +261,18 @@ header {
             }
         }
     }
-    .trade-2{
-        ul{
-            li::marker {
-              background: red;
-            }
-        }
-    }
 }
 
 /* forex trading and benefit start*/
+
+/* payment container start*/
+
+.payment-bar-container{
+    min-height: 160px;
+    line-height: 160px;
+}
+
+/* payment container end*/
 /* Services Item */
 
 .navbar-expand-md .navbar-nav .nav-item {
@@ -352,6 +358,7 @@ Main components
 .cd-logo img {
     display: block;
     width: 70%;
+    margin-top: 25%;
 }
 
 .cd-nav-trigger {
@@ -774,11 +781,14 @@ Main components
 /* mega menu end*/
 
 /* footer start*/
-.footer-contact{
-    ul{
-        li{
-            display: flex;
-            align-items: center;
+footer{
+    background: #1E1E21;
+    .footer-contact{
+        ul{
+            li{
+                display: flex;
+                align-items: center;
+            }
         }
     }
 }
@@ -787,6 +797,9 @@ Main components
 /* ==========================================================================
   Responsive
    ========================================================================== */
+@media screen and (max-width: 1366px){
+
+}   
 @media screen and (max-width: 1280px) {
     header {
         .mega-menu {
