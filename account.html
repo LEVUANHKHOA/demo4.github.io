@@ -11,6 +11,9 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" >
       <!-- Icon -->
       <link rel="shortcut icon" type="image/png" href="img/favicon.ico" />
+      <!-- Swiper slider -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
       <!-- Main Style -->
       <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
@@ -236,92 +239,112 @@
          <!-- Hero Area End -->
       </header>
       <!-- Header End -->
-      <!-- about start -->
-      <content id="about-page">
-         <!-- first text start-->
-         <section class="first-text py-80">
+      <!-- content start -->
+      <content id="account-page">
+         <section class="account-box py-80">
             <div class="container">
-               <div class="row d-flex align-items-center">
-                  <div class="col-12">
-                     <h2 class=" font-28 font-weight-bold">Thunderforex offers trading solutions for active day traders and scalpers as well as traders that are new to the forex market. Thunderforex offers its clients cutting edge trading platforms, low latency connectivity and superior liquidity.
-                     Thunderforex is revolutionizing online forex trading. Traders are now able to gain access to pricing previously only available to investment banks and high net worth individuals.
-                     </h2>
-                  </div>
+               <h1 class="font-48">Choose your account type</h1>
+               <p class="line-height-35 font-18">Our Metatrader and FIX API accounts offer some of the lowest possible spreads available. Our average EUR/USD spread is 0.1 pips, with only a small commission of €3.50 per lot payable per side.<br>
+                  With aggregated source of pricing from institutional grade sources. Thunder Forex accounts were built for day traders, scalpers and expert advisors.<br>
+                  Our MetaTrader 4 servers are located in the Equinix LD4 data center in London, bringing you closer to our bridge eliminating any unnecessary latency.<br>
+                  The Thunder Forex MetaTrader 4 Platform is the preferred choice for active day traders and scalpers globally. Additionally we offer FIX API accounts for institutional high-volume traders and algorithmic trading.
+               </p>
+               <table class="table">
+                  <thead>
+                     <tr>
+                        <th></th>
+                        <th class="text-uppercase text-dark font-28 font-weight-bold text-center border">MT4</th>
+                        <th class="text-uppercase text-dark font-28 font-weight-bold text-center border">FIX API</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td class="border">Trading Platform</td>
+                        <td class="border text-center">MetaTrader</td>
+                        <td class="border text-center">FIX API</td>
+                     </tr>
+                     <tr>
+                        <td class="border">Commission (per lot)</td>
+                        <td class="border text-center">
+                           € 3.5 
+                           <p class="m-0">(€ 7.0 per lot roundturn)</p>
+                        </td>
+                        <td class="border text-center">€ 0.0</td>
+                     </tr>
+                     <tr>
+                        <td class="border">Spreads from (pips)</td>
+                        <td class="border text-center">0.0</p></td>
+                        <td class="border text-center">1.0</td>
+                     </tr>
+                     <tr>
+                        <td class="border">Starting Deposit (USD)</td>
+                        <td class="border text-center">€ 100</td>
+                        <td class="border text-center">€ 100</td>
+                     </tr>
+                     <tr>
+                        <td class="border">Leverage</td>
+                        <td class="border text-center">1400</td>
+                        <td class="border text-center">1400</td>
+                     </tr>
+                     <tr>
+                        <td class="border">Server Location</td>
+                        <td class="border text-center">London</td>
+                        <td class="border text-center">London</td>
+                     </tr>
+                     <tr>
+                        <td class="border">Micro Lot Trading (0.01)</td>
+                        <td class="border text-center"><i class="fas fa-check color-green font-20"></i></td>
+                        <td class="border text-center"><i class="fas fa-check color-green font-20"></i></td>
+                     </tr>
+                     <tr>
+                        <td class="border">Currency Pairs</td>
+                        <td class="border text-center">64</p></td>
+                        <td class="border text-center">64</td>
+                     </tr>
+                     <tr>
+                        <td class="border">Index CFD Trading</td>
+                        <td class="border text-center"><i class="fas fa-check color-green font-20"></i></td>
+                        <td class="border text-center"><i class="fas fa-check color-green font-20"></i></td>
+                     </tr>
+                     <tr>
+                        <td class="border">Stop Out Level</td>
+                        <td class="border text-center">50%</td>
+                        <td class="border text-center">50%</td>
+                     </tr>
+                     <tr>
+                        <td class="border">One Click Trading</td>
+                        <td class="border text-center"><i class="fas fa-check color-green font-20"></i></td>
+                        <td class="border text-center"><i class="fas fa-check color-green font-20"></i></td>
+                     </tr>
+                     <tr>
+                        <td class="border">Trading Styles Allowed</td>
+                        <td class="border text-center">All</td>
+                        <td class="border text-center">All</td>
+                     </tr>
+                     <tr>
+                        <td class="border">Order Distance Restriction</td>
+                        <td class="border text-center">None</td>
+                        <td class="border text-center">None</td>
+                     </tr>
+                     <tr>
+                        <td class="border">Programming Language</td>
+                        <td class="border text-center">MQL4</td>
+                        <td class="border text-center">Java / C#</td>
+                     </tr>
+                     <tr>
+                        <td class="border">Suitable For</td>
+                        <td class="border text-center">EAs & Scalpers</td>
+                        <td class="border text-center">High Volumes</td>
+                     </tr>
+                  </tbody>
+               </table>
+               <div class="table-button text-center">
+                  <a class="table-btn font-weight-bold font-18 btn btn-outline-dark" href="#" role="button">create demo account</a>
+                  <a class="table-btn font-weight-bold font-18 btn bg-green text-white" href="#" role="button">create live account</a>
                </div>
             </div>
          </section>
-         <!-- first text end-->
-         <!-- second text start-->
-         <section class="second-text py-80">
-            <div class="container">
-               <div class="row">
-                  <div class="col-12">
-                     <h3 class="mb-30 font-48">
-                        Why was Thunderforex Founded?
-                     </h3>
-                     <p class="mb-30 font-18 line-height-35">
-                        Thunderforex sought to bridge the gap between retail and institutional clients offering a trading solution previously only available to Investment banks and high net worth individuals. Thunderforex Raw Spread Connectivity was born, providing superior execution technology, lower spreads and unrivalled liquidity.
-                     </p>
-                     <p class="font-18 line-height-35">
-                        Thunderforex is dedicated to innovation, constant improvement and utilising cutting edge technology previously unavailable.
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <!-- second text end-->
-         <!-- third text start-->
-         <section class="third-text py-80">
-            <div class="container">
-               <div class="row">
-                  <div class="col-12">
-                     <h3 class="mb-30 font-48">
-                        Mission Statement
-                     </h3>
-                     <p class="mb-30 font-18 line-height-35">
-                        Thunderforex mission is to create the best and most transparent trading experience for retail and institutional clients alike allowing traders to focus more on their trading. Built by traders for traders Thunderforex is dedicated to offering superior spreads, execution and service.
-                     </p>
-                     <h3 class="mb-30 font-48">
-                        Core Values
-                     </h3>
-                     <ul class="list-box mb-30">
-                        <li class="marker-green list-item font-18 line-height-35">Integrity and Trust</li>
-                        <li class="marker-green list-item font-18 line-height-35">Honesty and Fairness</li>
-                        <li class="marker-green list-item font-18 line-height-35">Transparency</li>
-                        <li class="marker-green list-item font-18 line-height-35">Commitments and Responsibility</li>
-                        <li class="marker-green list-item font-18 line-height-35">Reliability</li>
-                        <li class="marker-green list-item font-18 line-height-35">Flexibility</li>
-                        <li class="marker-green list-item font-18 line-height-35">Constant Innovation</li>
-                        <li class="marker-green list-item font-18 line-height-35">Strong Corporate Governance</li>
-                     </ul>
-                     <h3 class="mb-30 font-48">
-                        Regulatory Compliance
-                     </h3>
-                     <p class="mb-30 font-18 line-height-35">
-                        Thunderforex acknowledges the importance of compliance with all relevant laws, rules, regulations, policies and standards. Thunderforex is committed to having strict management discipline and first-class controls in our compliance environment. As a regulated entity Thunderforex is required to meet strict financial standards, including capital adequacy and audit requirements.
-                     </p>
-                     <p class="mb-30 font-18 line-height-35">
-                        Thunderforex holds client money in segregated accounts. All client money is managed in accordance with the Client Money Handling rules and held separately to Thunderforex company funds. Client money is not used for any operational expenses.
-                     </p>
-                     <h3 class="mb-30 font-48">
-                        Audit
-                     </h3>
-                     <p class="mb-30 font-18 line-height-35">
-                        Thunderforex has in place an independent, external auditor to supplement our operational processes and ensure regulatory compliance.
-                     </p>
-                     <h3 class="mb-30 font-48">
-                        Confidentiality
-                     </h3>
-                     <p class="mb-30 font-18 line-height-35">
-                        Thunderforex maintains appropriate controls and monitors the transfer of confidential and sensitive client information within and outside the Company on a need-to-know basis. Thunderforex does not deliberately disclose client information unless this is upon request of the client, or as required to do so by law.
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <!-- third text end-->
       </content>
-      <!-- about end-->
       <!-- footer start-->
       <footer id="footer" class="page-footer font-small pt-4">
          <!-- Footer Links -->

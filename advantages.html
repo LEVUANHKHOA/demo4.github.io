@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <title>New project</title>
       <!-- google font -->
-      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" >
       <!-- Icon -->
@@ -22,126 +22,118 @@
          <!-- Navbar Start -->
          <nav class="navbar navbar-expand-md bg-inverse fixed-top mega-menu d-block">
             <div class="container">
-               <div class="collapse navbar-collapse" id="navbarCollapse">
-                  <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
-                     <li class="nav-item active">
-                        <a class="nav-link text-capitalize" href="./">
-                        live chat
-                        </a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link text-capitalize" href="#">
-                        Contact Us 24/5
-                        </a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link nav-login text-capitalize" href="#">
-                        login
-                        </a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link nav-live text-capitalize" href="#">
-                        open live accounts
-                        </a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link text-capitalize nav-demo" href="#">
-                        demo
-                        </a>
-                     </li>
-                  </ul>
-               </div>
             </div>
             <div class="row">
                <div class="col-12">
                   <div id="navbar" class="mb-4 d-md-block d-none">
                      <div class="container">
-                        <div class="d-flex justify-content-between align-items-end w-100">
-                           <a href="./index.html" class="navbar-brand"><img class="mw-100" src="img/thunder_red_thin.png" alt="logo-thunder"></a>  
-                           <div class="menu-box d-flex">
+                        <div class="d-flex justify-content-between align-items-center w-100">
+                           <a href="./index.html" class="navbar-brand"><img class="mw-100" src="img/thunder_redplain_cd0511.png" alt="logo-thunder"></a>  
+                           <div class="menu-container">
+                              <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix mb-3">
+                     <li class="nav-item active">
+                        <a class="font-14 nav-link text-capitalize" href="./">
+                        live chat
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="font-14 nav-link text-capitalize" href="./contact-us.html">
+                        Contact Us 24/5
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="font-14 nav-link nav-login text-capitalize" href="#">
+                        login
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="font-14 nav-link nav-live text-capitalize" href="#">
+                        open live accounts
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="font-14 nav-link text-capitalize nav-demo" href="#">
+                        demo
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+                             <div class="menu-box d-flex">
                               <div class="menu-item">
-                                 <a href="./index.html" class="menu-link">Home</a>
-                                 <!-- menu-content -->
-                              </div>
-                              <!-- menu-item -->
-                              <div class="menu-item">
-                                 <a href="./about.html" class="menu-link">about</a>
-                                 <div class="menu-content">
-                                    <div class="container">
-                                       <div class="row">
-                                          <div class="col-12">
-                                             <div class="p-3">
-                                                <a href="./about.html" class="text-white menu-content-link text-uppercase">about thunderForex</a>
-                                                <a href="./advantages.html" class="text-white menu-content-link text-uppercase">advantages of ThunderForex</a>
-                                             </div>
-                                          </div>
-                                       </div>
-                                       <!-- /.row -->
-                                    </div>
-                                    <!-- menu-content > .container -->
+                                    <ul class="nav navbar-nav navbar-right">
+                                       <li class="dropdown">
+                                         <a href="./index.html" class="dropdown-toggle text-uppercase text-white" data-toggle="dropdown font-13">home</a>
+                                         
+                                       </li>
+                                    </ul>
                                  </div>
-                              </div>
                               <!-- menu-item -->
                               <div class="menu-item">
-                                 <a href="#" class="menu-link">products</a>
-                                 <!-- menu-content -->
-                                 <div class="menu-content">
-                                    <div class="container">
-                                       <div class="row">
-                                          <div class="col-12">
-                                             <div class="p-3">
-                                                <a href="#" class="text-white menu-content-link text-uppercase">Forex</a>
-                                                <a href="#" class="text-white menu-content-link text-uppercase">Metals and Energies</a>
-                                                <a href="#" class="text-white menu-content-link text-uppercase">Indices</a>
-                                                <a href="#" class="text-white menu-content-link text-uppercase">Shares</a>
-                                                <a href="#" class="text-white menu-content-link text-uppercase">Commodities</a>
-                                                <a href="#" class="text-white menu-content-link text-uppercase">Cryptocurrencies</a>
-                                             </div>
-                                          </div>
-                                       </div>
-                                       <!-- /.row -->
-                                    </div>
-                                    <!-- menu-content > .container -->
+                                    <ul class="nav navbar-nav navbar-right">
+                                       <li class="dropdown">
+                                         <a href="#" class="dropdown-toggle text-uppercase text-white" data-toggle="dropdown">about</a>
+                                         <ul class="dropdown-menu rounded-0">
+                                           <li><a href="./about.html" class="w-100 text-white menu-content-link text-uppercase font-14">about thunderForex</a></li>
+                                           <li><a href="./advantages.html" class="w-100 text-white menu-content-link text-uppercase font-14">advantages of ThunderForex</a></li>
+                                         </ul>
+                                       </li>
+                                    </ul>
                                  </div>
-                              </div>
                               <!-- menu-item -->
                               <div class="menu-item">
-                                 <a href="#" class="menu-link">accounts</a>
-                              </div>
-                              <!-- menu-item -->
-                              <div class="menu-item">
-                                 <a href="#" class="menu-link">platforms</a>
-                                 <div class="menu-content">
-                                    <div class="container">
-                                       <div class="row">
-                                          <div class="col-12">
-                                             <div class="p-3">
-                                                <a href="#" class="text-white menu-content-link text-uppercase">mt4 for deskop</a>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
+                                    <ul class="nav navbar-nav navbar-right">
+                                       <li class="dropdown">
+                                         <a href="#" class="dropdown-toggle text-uppercase text-white" data-toggle="dropdown">products</a>
+                                         <ul class="dropdown-menu rounded-0">
+                                           <li><a href="./forex.html" class="w-100 text-white menu-content-link text-uppercase font-14">Forex</a></li>
+                                           <li><a href="./indies.html" class="w-100 text-white menu-content-link text-uppercase font-14">Indices</a></li>
+                                           <li><a href="./share-page.html" class="w-100 text-white menu-content-link text-uppercase font-14">Shares</a></li>
+                                           <li><a href="./commodities-page.html" class="w-100 text-white menu-content-link text-uppercase font-14">Commodities</a></li>
+                                           <li><a href="./futures-page.html" class="w-100 text-white menu-content-link text-uppercase font-14">futures</a></li>
+                                           <li><a href="./cryptocurrency-page.html" class="w-100 text-white menu-content-link text-uppercase font-14">Cryptocurrencies</a></li>
+                                         </ul>
+                                       </li>
+                                    </ul>
                                  </div>
+                              <!-- menu-item -->
+                              <div class="menu-item">
+                                 <ul class="nav navbar-nav navbar-right">
+                                    <li class="dropdown">
+                                      <a href="#" class="w-100 dropdown-toggle text-uppercase text-white" data-toggle="dropdown">account</a>
+                                      <ul class="dropdown-menu rounded-0">
+                                        <li><a href="./account.html" class="w-100 text-white menu-content-link text-uppercase font-14">accounts</a></li>
+                                        <li><a href="./account-opening.html" class="w-100 text-white menu-content-link text-uppercase font-14">account opening info</a></li>
+                                      </ul>
+                                    </li>
+                                 </ul>
+                              </div>
+                              <div class="menu-item">
+                                 <ul class="nav navbar-nav navbar-right">
+                                    <li class="dropdown">
+                                      <a href="#" class="w-100 dropdown-toggle text-uppercase text-white" data-toggle="dropdown">platforms</a>
+                                      <ul class="dropdown-menu rounded-0">
+                                        <li><a href="./metatrader-page.html" class="w-100 text-white menu-content-link text-uppercase font-14">mt4 for deskop</a></li>
+                                      </ul>
+                                    </li>
+                                 </ul>
                               </div>
                               <!-- menu-item -->
                               <div class="menu-item">
-                                 <a href="#" class="menu-link">regulation</a>
-                                 <div class="menu-content">
-                                    <div class="container">
-                                       <div class="row">
-                                          <div class="col-12">
-                                             <div class="p-3">
-                                                <a href="#" class="text-white menu-content-link text-uppercase">regulation and licence</a>
-                                                <a href="#" class="text-white menu-content-link text-uppercase">security of funds</a>
-                                                <a href="#" class="text-white menu-content-link text-uppercase">legal documention</a>
-                                                <a href="#" class="text-white menu-content-link text-uppercase">faqs</a>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
+                                 <ul class="nav navbar-nav navbar-right">
+                                    <li class="dropdown">
+                                      <a href="#" class="dropdown-toggle text-uppercase text-white" data-toggle="dropdown">regulation</a>
+                                      <ul class="dropdown-menu rounded-0">
+                                        <li><a href="./regulation-page.html" class="w-100 text-white menu-content-link text-uppercase font-14">regulation and licence</a></li>
+                                        <li><a href="./security-page.html" class="w-100 text-white menu-content-link text-uppercase font-14">security of funds</a></li>
+                                        <li><a href="./legal-documents.html" class="w-100 text-white menu-content-link text-uppercase font-14">legal documention</a></li>
+                                        <li><a href="#" class="w-100 text-white menu-content-link text-uppercase font-14">faqs</a></li>
+                                      </ul>
+                                    </li>
+                                 </ul>
                               </div>
                               <!-- menu-item -->
+                           </div>
                            </div>
                         </div>
                      </div>
@@ -246,7 +238,114 @@
       <!-- Header End -->
       <!-- advantages start -->
       <content id="advantages-page">
-         
+         <section class="advantages-box py-80">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4 mb-4 col-12">
+                     <main class="main-box border">
+                        <div class="main-top d-flex align-items-center border-bottom">
+                           <img class="mw-100" src="img/trading-products.png" alt="trading product">
+                           <p class="mb-0 pl-10">GREAT TRADING CONDITIONS</p>
+                        </div>
+                        <div class="main-bottom">
+                           <ul class="list-box p-20">
+                              <li class="marker-green line-height-25 list-item font-13">Tight Spreads from as low as 0 (EUR/USD)</li>
+                              <li class="marker-green line-height-25 list-item font-13">Flexible leverage up to 1:400</li>
+                              <li class="marker-green line-height-25 list-item font-13">Customer portal enables online account management</li>
+                              <li class="marker-green line-height-25 list-item font-13">24/5 dedicated support</li>
+                              <li class="marker-green line-height-25 list-item font-13">Transparency - Rollover Policy</li>
+                           </ul>
+                        </div>
+                     </main>
+                  </div>
+                  <div class="col-md-4 mb-4 col-12">
+                     <main class="main-box border">
+                        <div class="main-top d-flex align-items-center border-bottom">
+                           <img class="mw-100" src="img/Money.png" alt="money">
+                           <p class="mb-0 pl-10">SMART TRADING</p>
+                        </div>
+                        <div class="main-bottom">
+                           <ul class="list-box p-20">
+                              <li class="marker-green line-height-25 list-item font-13">Trade Forex, Indices & Commodities</li>
+                              <li class="marker-green line-height-25 list-item font-13">Ongoing Promotions</li>
+                              <li class="marker-green line-height-25 list-item font-13">Performance based competitions</li>
+                              <li class="marker-green line-height-25 list-item font-13">EAs, Scalping, and Hedging allowed</li>
+                           </ul>
+                        </div>
+                     </main>
+                  </div>
+                  <div class="col-md-4 mb-4 col-12">
+                     <main class="main-box border">
+                        <div class="main-top d-flex align-items-center border-bottom">
+                           <img class="mw-100" src="img/trading-tools.png" alt="trading tool">
+                           <p class="mb-0 pl-10">SUPERIOR TRADING TOOLS</p>
+                        </div>
+                        <div class="main-bottom">
+                           <ul class="list-box p-20">
+                              <li class="marker-green line-height-25 list-item font-13">Execute Trades directly with One Click Trading</li>
+                              <li class="marker-green line-height-25 list-item font-13">VPS hosting</li>
+                              <li class="marker-green line-height-25 list-item font-13">Distribute capital between your accounts and strategies in realtime</li>
+                           </ul>
+                        </div>
+                     </main>
+                  </div>
+                  <div class="col-md-4 mb-4 col-12">
+                     <main class="main-box border">
+                        <div class="main-top d-flex align-items-center border-bottom">
+                           <img class="mw-100" src="img/account-types.png" alt="account types">
+                           <p class="mb-0 pl-10">ACCOUNT CONDITIONS</p>
+                        </div>
+                        <div class="main-bottom">
+                           <ul class="list-box p-20">
+                              <li class="marker-green line-height-25 list-item font-13">Account from just $100</li>
+                              <li class="marker-green line-height-25 list-item font-13">PAMM Account for fund managers</li>
+                              <li class="marker-green line-height-25 list-item font-13">RAW Spreads</li>
+                              <li class="marker-green line-height-25 list-item font-13">Unlimited risk free Demo Account</li>
+                              <li class="marker-green line-height-25 list-item font-13">Swap free Islamic Account</li>
+                           </ul>
+                        </div>
+                     </main>
+                  </div>
+                  <div class="col-md-4 mb-4 col-12">
+                     <main class="main-box border">
+                        <div class="main-top d-flex align-items-center border-bottom">
+                           <img class="mw-100" src="img/platforms_mt4.png" alt="plat form">
+                           <p class="mb-0 pl-10">CONVENIENT PLATFORM OPTIONS</p>
+                        </div>
+                        <div class="main-bottom">
+                           <ul class="list-box p-20">
+                              <li class="marker-green line-height-25 list-item font-13">
+                                 MT4 Desktop
+                              </li>
+                              <li class="marker-green line-height-25 list-item font-13">iPhone Trader for MT4</li>
+                              <li class="marker-green line-height-25 list-item font-13">iPad Trader for MT4</li>
+                              <li class="marker-green line-height-25 list-item font-13">Android Trader for MT4</li>
+                              <li class="marker-green line-height-25 list-item font-13">Algo-trading with MQL4
+</li>
+                           </ul>
+                        </div>
+                     </main>
+                  </div>
+                  <div class="col-md-4 mb-4 col-12">
+                     <main class="main-box border">
+                        <div class="main-top d-flex align-items-center border-bottom">
+                           <img class="mw-100" src="img/Shield.png" alt="shield">
+                           <p class="mb-0 pl-10">GREAT TRADING CONDITIONS</p>
+                        </div>
+                        <div class="main-bottom">
+                           <ul class="list-box p-20">
+                              <li class="marker-green line-height-25 list-item font-13">Regulated by the Financial Services Authority of the Seychelles</li>
+                              <li class="marker-green line-height-25 list-item font-13">Audited by external auditors</li>
+                              <li class="marker-green line-height-25 list-item font-13">Client funds are held in segregated accounts</li>
+                              <li class="marker-green line-height-25 list-item font-13">Full Transparency</li>
+                              <li class="marker-green line-height-25 list-item font-13">Market Leading Insurance</li>
+                           </ul>
+                        </div>
+                     </main>
+                  </div>
+               </div>
+            </div>
+         </section>
       </content>
       <!-- advantages end-->
       <!-- footer start-->
@@ -258,74 +357,36 @@
                <!-- Grid column -->
                <div class="col-md-3 mb-4">
                   <!-- Content -->
-                  <a href="#"><img src="img/REDThunderForex_medlogo.png" alt=""></a>
+                  <a href="#"><img src="img/thunder_redplain_med.png" alt=""></a>
                </div>
                <!-- Grid column -->
-               <div class="col-md-3 mt-md-0 mt-3">
+               <div class="col-md-9 mt-md-0 mt-3">
                   <!-- Content -->
                   <ul class="footer-contact list-style-none p-0 m-0">
-                     <li class="mb-3 text-uppercase">contact us 24/5</li>
-                     <li class="mb-3 text-capitalize"><a href="#"><i class="far fa-envelope color-red mr-20"></i>support@thunderforex.com</a></li>
-                     <li class="mb-3"><a href="#"><i class="fas fa-phone-alt color-red mr-20"></i>+44 2030263698</a></li>
-                     <li class="mb-3 text-capitalize"><a href="#"><i class="fas fa-comments color-red mr-20"></i>live chat</a></li>
+                    <li class="mb-3"><a href="#"><i class="fas fa-phone-alt color-red mr-20"></i>Phone:  +44 2030263698</a></li>
+                    <li class="mb-3"><a href="#"><i class="far fa-envelope color-red mr-20"></i>Email: info@thunderforex.com</a></li>
+                    <li class="mb-3"><a href="#"><i class="fas fa-globe color-red mr-20"></i>Web:  www.thunderforex.com</a></li>
                   </ul>
                </div>
+               <p class="font-13">
+                  Disclaimer
+                </p>
+                <p class="font-13">
+                  The information provided on this website is general in nature only and does not constitute personal financial advice. Before acting on any information on this website you should consider the appropriateness of the information having regard to your objectives, financial situation and needs. Investing in CFDs and Margined FX Contracts carries significant risks and is not suitable for all investors. You may lose more than your initial deposit. You don’t own, or have, any interest in the underlining assets. We recommend that you seek independent advice and ensure fully understand the risks involved before trading. It is important that you read and consider disclosure documents before you acquire any product listed on the website. The information and advertisements offered on this website are not intended for use by any person in any country or jurisdiction where such use is contrary to the local laws and regulations. Products and Services offered on this website is not intended for residents of the United States.
+                </p>
+                <p class="font-13">
+                  ThunderForex Limited (company registration no. 8427682-1) holds a Securities Dealer Licence (SDL 067) issued by the Financial Services Authority of the Seychelles. ThunderForex Limited is registered at CT House, Office 9A, Providence, Mahe, Seychelles. The information on the Thunderforex website (www.thunderforex.com) is not directed at residents in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.
+                </p>
                <!-- Grid column -->
                <!-- Grid column -->
-               <div class="col-md-3 mb-md-0 mb-3">
-                  <!-- Links -->
-                  <h5 class="text-uppercase">Sản phẩm</h5>
-                  <ul class="list-unstyled">
-                     <li>
-                        <a href="#!">Forex</a>
-                     </li>
-                     <li>
-                        <a href="#!">Kim loại</a>
-                     </li>
-                     <li>
-                        <a href="#!">Chỉ số</a>
-                     </li>
-                     <li>
-                        <a href="#!">
-                        Cổ phiếu</a>
-                     </li>
-                     <li>
-                        <a href="#!">
-                        Hàng hóa</a>
-                     </li>
-                  </ul>
-               </div>
-               <div class="col-md-3 mb-md-0 mb-3">
-                  <!-- Links -->
-                  <h5 class="text-uppercase">Sản phẩm</h5>
-                  <ul class="list-unstyled">
-                     <li>
-                        <a href="#!">Forex</a>
-                     </li>
-                     <li>
-                        <a href="#!">Kim loại</a>
-                     </li>
-                     <li>
-                        <a href="#!">Chỉ số</a>
-                     </li>
-                     <li>
-                        <a href="#!">
-                        Cổ phiếu</a>
-                     </li>
-                     <li>
-                        <a href="#!">
-                        Hàng hóa</a>
-                     </li>
-                  </ul>
-               </div>
                <!-- Grid column -->
             </div>
             <!-- Grid row -->
          </div>
          <!-- Footer Links -->
          <!-- Copyright -->
-         <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            <a href="#">Thunder Forex</a>
+         <div class="footer-copyright text-center py-3">© Copyright 2020:
+            <a href="#">ThunderForex Limited. All rights reserved.</a>
          </div>
          <!-- Copyright -->
       </footer>
@@ -334,5 +395,6 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
       <script src="js/main-mega-menu.js"></script>
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+      <script src="js/app.js"></script>
    </body>
 </html>
